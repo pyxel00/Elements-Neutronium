@@ -1,9 +1,14 @@
-# ExpandedWarfare
+# Elements Neutronium
 
-Expanded Warfare is a rimworld mod project that is still under construction and probably will be under construction for a long time.
+Elements : Neutronium is the first mod of the new series Elements. This mod series focus on adding new elements to the rim. some are coming from fantasies, some are theoretical elements from real life. As for neutronim it is a theoretical substance thought to exist inside the neutron stars.
 
-Expanded Warfare adds new weapons, equipment, grenades and weapons of mass destruction. I am now sure about the weapons of mass destruction but still.
+This mod adds :
+-1 New material called neutronium.
+-4 New neutronium weapons which use neutronium as bullets.
+-1 New shell which uses neutronium as an explosive and is pretty powerful.
+-1 New rocket launcher firing neutronium rockets.
+-A new reactor using neutronium as fuel.
+-And a way to produce neutronium
 
-In this stage the mod includes a variety of weapons that are mostly stupid but funny. Example : Glass grenade.
-
-This mod requires Vanilla Expanded Framework to work becasue expanded warfare includes new gas types and i couldn't find any documentation or anything about the new gas system added in 1.4 update of rimworld.
+-- Neutron weapons --
+As I said before there is 4 of them which are : Neutron assault rifle, Neutron SMG, Neutron 47 and Neutron shotgun. All of these weapons fire neutronium as bullets.
