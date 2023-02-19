@@ -10,5 +10,26 @@ This mod adds :
 -A new reactor using neutronium as fuel.
 -And a way to produce neutronium
 
+-- Neutronium --
+
+An element consisting of neutrons. Theorized to exist inside neutron stars. Neutronium is very powerful. Neutrons have a half-life on 611 seconds and release around 1MeV(Million electron Volts) in their half-life. Neutrons have an absurd amount of power and they are quite dense. 1 Kilogram(2.2 lbs) produces as much energy as 2.000.000(2 Million) tsar bombas. The most powerful nuke ever detonated in the history. In just one second.
+
 -- Neutron weapons --
-As I said before there is 4 of them which are : Neutron assault rifle, Neutron SMG, Neutron 47 and Neutron shotgun. All of these weapons fire neutronium as bullets.
+
+As I said before there is 4 of them which are : Neutron assault rifle, Neutron SMG, Neutron 47 and Neutron shotgun. All of these weapons fire neutronium as bullets. More info about them is in the mod.
+
+-- Neuton Shell --
+
+Clean nuke.
+
+-- Neutron rocket launcher --
+
+Shell but in hand but smaller.
+
+-- Neutronium Reactor -- 
+
+A reactor using the absurd power of neutrons to produce power. It is very efficient but also deadly if explodes. Puts 10000W to the grid.
+
+-- Centrifuge --
+
+An advanced centrifuge which is spinning at billions of times per second. With this rotation power it is able to overcome strong nuclear force. Using the slight difference between neutrons and protons it can seperate the two.
