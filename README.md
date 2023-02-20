@@ -1,5 +1,10 @@
 # Elements Neutronium
 
+Warning : this mod requires vanilla expanded framework to work
+
+Where to publish error logs : Go to the reddit site which can be accesed from this link :
+and at the comments section and reply using the <Error Log> tag on the first sentence. In this way I can seperate them from the normal comments.
+
 Elements : Neutronium is the first mod of the new series Elements. This mod series focus on adding new elements to the rim. some are coming from fantasies, some are theoretical elements from real life. As for neutronim it is a theoretical substance thought to exist inside the neutron stars.
 
 This mod adds :
@@ -39,5 +44,3 @@ I have no idea how to make something compatible with CE so for now it is not.
 
 Why isn't this on steam?
 I don't own the game on the steam and because of the steamworkshop thing I cannot publish it in steam.
-
-As for the error logs : Go to the issues on the Githu
