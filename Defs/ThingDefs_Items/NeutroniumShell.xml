@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========= Neutronium Shell =========-->
+
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>EXW_NeutroniumShell</defName>
+    <label>neutronium shell</label>
+    <description>A special shell using neutronium as an explosive. 
+      
+Neutronium might look like a safe substance but is actually really deadly. Only a small amount of neutronium is enough to create an explosion near to a nuclear bomb. But unlike a nuclear bomb this weapon has no side effects for enviroment which makes them a great alternative.</description>
+    <possessionCount>1</possessionCount>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>600</MarketValue>
+      <Mass>1.25</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/NeutroniumShell</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="False">
+      <li>MortarShells</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>20</explosiveRadius>
+        <explosiveDamageType>EXW_NeutroniumBomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_Shell_Neutronium</projectileWhenLoaded>
+    <costList>
+      <Steel>75</Steel>
+      <Plasteel>30</Plasteel>
+      <EXW_Neutronium>1</EXW_Neutronium>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>EXW_NeutronPower</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_Neutronium</defName>
+    <label>neutronium shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>EXW_NeutroniumBomb</damageDef>
+      <damageAmountBase>5000</damageAmountBase>
+      <speed>41</speed>
+      <explosionRadius>40</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>Explosion_Stun</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+
+</Defs>

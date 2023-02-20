@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--========= NEUTRON POWER =========-->
+  <ResearchProjectDef>
+    <defName>EXW_NeutronPower</defName>
+    <label>neutron power</label>
+    <description>Learn how to harness the power of neutronium.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>15.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+</Defs>
