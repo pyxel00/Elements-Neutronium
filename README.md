@@ -47,7 +47,9 @@ A reactor using the absurd power of neutrons to produce power. It is very effici
 An advanced centrifuge which is spinning at billions of times per second. With this rotation power it is able to overcome strong nuclear force. Using the slight difference between neutrons and protons it can seperate the two.
 
 Is this CE compatible?
+  
 I have no idea how to make something compatible with CE so for now it is not.
 
 Why isn't this on steam?
+  
 I don't own the game on the steam and because of the steamworkshop thing I cannot publish it in steam.
