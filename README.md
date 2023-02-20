@@ -49,7 +49,3 @@ An advanced centrifuge which is spinning at billions of times per second. With t
 Is this CE compatible?
   
 I have no idea how to make something compatible with CE so for now it is not.
-
-Why isn't this on steam?
-  
-I don't own the game on the steam and because of the steamworkshop thing I cannot publish it in steam.
