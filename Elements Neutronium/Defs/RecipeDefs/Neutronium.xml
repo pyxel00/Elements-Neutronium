@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>EXW_Make_Neutronium</defName>
+    <label>make neutronium</label>
+    <description>Put together neutronium fragments to create neutronium.</description>
+    <jobString>Making neutronium.</jobString>
+    <workAmount>5000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>ConstructMetal</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <unfinishedThingDef>EXW_UnfinishedNeutronium</unfinishedThingDef>
+	 <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EXW_NeutroniumFragment</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EXW_NeutroniumFragment</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <EXW_Neutronium>1</EXW_Neutronium>
+    </products>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>20</displayPriority>
+  </RecipeDef>
+  
+</Defs>

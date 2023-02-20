@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Elements : Neutronium</name>
+  <author>Ahmet</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>ElementsExpanded.EXW</packageId>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <description>
+    Elements  : Neutronium is the first mod of the new series : Elements. This mod series focuses on new elements. Coming from fantasies, theories and other various ideas. In the Elements : Neutronium mod focuses on a theoretical element called neutronium. Which is an element thought to be existing inside the neutron stars.
+    
+Elements : Neutronium adds 
+
+- 4 New weapons which use neutronium as bullets.
+- 1 New neutronium shell which is quite powerful and is a clean nuke.
+- 1 New rocket launcher which is like neutronium shell.
+- A new reactor using neutronium as fuel.
+- And a way to produce neutronium from steel.
+
+it doesn't add much I know but since it is my first mod I didin't want to go overboard and set the expectations too high since I am a new modder which only started a week ago. But as I move on new mods will be available(Maybe I can quit.) adding much more stuff and maybe some new mechanics
+  </description>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </loadAfter>
+</ModMetaData>

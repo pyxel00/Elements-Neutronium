@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>EXW_UnfinishedNeutronium</defName>
+    <label>unfinished neutronium</label>
+    <description>An piece of unfinished neutronium.</description>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedComponent</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+  
+</Defs>
